@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Star, Users, Zap, Globe, Building2, TrendingUp } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import varnanLogo from "@/assets/varnan-logo.png";
 
 const Index = () => {
   const navigate = useNavigate();
@@ -45,6 +46,9 @@ const Index = () => {
 
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <div className="mb-8">
+            <div className="flex justify-center mb-8">
+              <img src={varnanLogo} alt="Varnan" className="h-12 md:h-16" />
+            </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
               Let Our AI Decode Your{" "}
               <span className="gradient-text">GTM Strategy</span>{" "}
@@ -119,8 +123,8 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-12 px-4 border-t border-border/50">
         <div className="max-w-6xl mx-auto text-center">
-          <div className="flex items-center justify-center gap-2 mb-4">
-            <Building2 className="h-5 w-5 text-primary" />
+          <div className="flex items-center justify-center gap-3 mb-4">
+            <img src={varnanLogo} alt="Varnan" className="h-6" />
             <span className="text-lg font-medium">Built with ❤️ by Varnan Labs</span>
           </div>
           <p className="text-muted-foreground">

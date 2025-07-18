@@ -66,17 +66,19 @@ const Form = () => {
         <div className="absolute bottom-1/3 right-1/5 w-64 h-64 rounded-full bg-accent/10 blur-3xl animate-float" style={{animationDelay: '3s'}}></div>
       </div>
 
+      {/* Back Button */}
+      <Button 
+        variant="ghost" 
+        onClick={() => navigate('/')}
+        className="fixed top-4 left-4 z-20 text-muted-foreground hover:text-foreground"
+      >
+        <ArrowLeft className="h-4 w-4 mr-2" />
+        Back
+      </Button>
+
       <div className="relative z-10 w-full max-w-2xl">
         {/* Header */}
         <div className="text-center mb-8">
-          <Button 
-            variant="ghost" 
-            onClick={() => navigate('/')}
-            className="absolute left-0 top-0 text-muted-foreground hover:text-foreground"
-          >
-            <ArrowLeft className="h-4 w-4 mr-2" />
-            Back
-          </Button>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Tell us about your startup
           </h1>

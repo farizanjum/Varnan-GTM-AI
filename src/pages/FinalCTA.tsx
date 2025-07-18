@@ -3,7 +3,7 @@ import { CalendarDays, ArrowRight, Sparkles } from "lucide-react";
 
 const FinalCTA = () => {
   const handleBookCall = () => {
-    window.open('https://calendly.com/varnan-labs/gtm', '_blank');
+    window.open('https://calendly.com/varnan-discovery-call/30min', '_blank');
   };
 
   return (
