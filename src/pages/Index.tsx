@@ -1,10 +1,18 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Star, Users, Zap, Globe, Building2, TrendingUp } from "lucide-react";
+import { NavBar } from "@/components/ui/tubelight-navbar";
+import { ArrowRight, Star, Users, Zap, Globe, Building2, TrendingUp, Home, User, FileText } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import varnanLogo from "@/assets/varnan-logo.png";
 
 const Index = () => {
   const navigate = useNavigate();
+  
+  const navItems = [
+    { name: 'Home', url: '/', icon: Home },
+    { name: 'About', url: '#about', icon: User },
+    { name: 'Testimonials', url: '#testimonials', icon: Star },
+    { name: 'GTM Report', url: '/form', icon: FileText }
+  ];
   const logos = [
     { name: "Product Hunt", icon: TrendingUp },
     { name: "Hacker News", icon: Zap },
@@ -36,6 +44,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
+      <NavBar items={navItems} />
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden">
         {/* Background Elements */}
@@ -46,11 +55,8 @@ const Index = () => {
 
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <div className="mb-8">
-            <div className="flex justify-center mb-8">
-              <img src={varnanLogo} alt="Varnan" className="h-12 md:h-16" />
-            </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Let Our AI Decode Your{" "}
+              Let Our Varnan AI Decode Your{" "}
               <span className="gradient-text">GTM Strategy</span>{" "}
               in 60 Seconds
             </h1>
@@ -90,7 +96,7 @@ const Index = () => {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 px-4">
+      <section id="testimonials" className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
