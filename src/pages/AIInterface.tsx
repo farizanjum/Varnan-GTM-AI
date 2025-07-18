@@ -47,31 +47,108 @@ const AIInterface = () => {
     "✅ Report ready! Here's what we think 👇"
   ];
 
+  // 🚀 GTM Report Jokes Dataset (Extended)
+  // ⚡️ 20+ Jokes per Section — Loaded with dark, Gen Z, industry-roast humor
   const reportData = {
     persona: [
-      "Startup CFOs who think Excel macros = AI.",
-      "Growth leads secretly using ChatGPT for everything.",
-      "VCs who still reply on WhatsApp."
+      "Growth marketers who unironically say 'vibes'.",
+      "Product managers addicted to frameworks but allergic to decisions.",
+      "Gen Z founders building AI for people who hate AI.",
+      "LinkedIn influencers looking for another SaaS affiliate code.",
+      "CFOs who still think AI is short for 'Annual Income'.",
+      "VCs who tweet 'betting on founders' while ghosting you.",
+      "Solopreneurs building GPT wrappers like it's 2023.",
+      "Corporate rebels who open Jira just to feel something.",
+      "Ex-McKinsey operators now obsessed with TikTok attribution.",
+      "Startups with 4 cofounders and zero alignment.",
+      "Growth hackers whose entire funnel is AI-generated.",
+      "SaaS founders who believe ICP = 'Influencer Content Persona'.",
+      "Product leaders who only ship updates on Sundays.",
+      "CTOs who use Midjourney for product design.",
+      "B2B marketers who still use PDFs in 2025.",
+      "Enterprise buyers who ghost harder than your last situationship.",
+      "Founders who call Notion their 'source of truth'.",
+      "The one guy on LinkedIn who replies with 'DM me'.",
+      "AI bros pitching 'decentralized CRMs for Gen Alpha'.",
+      "Product folks who think roadmap = vibe map."
     ],
     channel: [
-      "LinkedIn memes and cold DMs written by ChatGPT.",
-      "Reddit AMAs and cofounder therapy sessions.",
-      "Twitter/X and caffeine-fueled interns with ambition."
+      "Posting carousels on LinkedIn and calling it distribution.",
+      "DMing YC alumni hoping for traction.",
+      "Tweeting inspirational nonsense and calling it GTM.",
+      "Buying email lists from Telegram.",
+      "Reddit posts that get shadowbanned instantly.",
+      "Trying to go viral on Threads. Still.",
+      "Running an X ad campaign with $12 and a Canva banner.",
+      "Asking your Discord server to 'share this with 5 friends'.",
+      "Making a founder podcast with 3 plays (all your mom).",
+      "Publishing a Substack series no one subscribed to.",
+      "Cold emailing investors pretending they're users.",
+      "Webinar with 1 speaker, 0 audience.",
+      "Hiring a ghostwriter to post Naval-core thoughts.",
+      "Sponsoring a newsletter that has more typos than readers.",
+      "Influencer collab that ended with you getting ghosted.",
+      "Running paid ads with zero tracking setup.",
+      "Thinking memes = growth engine.",
+      "Promoting tweets on a shadowbanned account.",
+      "Referral program that pays in exposure.",
+      "SEO strategy based on ChatGPT prompts."
     ],
     bottleneck: [
-      "Your ICP is more mysterious than OpenAI's board decisions.",
-      "Positioning is solid… if 'AI-powered' is still a differentiator.",
-      "You're solving a problem people haven't admitted they have."
+      "You talk about 'community' but haven't replied to a single comment.",
+      "Your ICP changed 3 times during this sentence.",
+      "Your funnel is a Rube Goldberg machine built in Zapier.",
+      "You're confusing traction with clout.",
+      "You think CAC is a vibe.",
+      "You're optimizing for likes instead of pipeline.",
+      "You call it 'word of mouth' but it's actually 'cofounder yelling into X'.",
+      "Your landing page headline is literally just '✨AI for [industry]✨'.",
+      "You ran paid ads before product onboarding.",
+      "You built an entire GTM stack before shipping anything.",
+      "Your demo form has 19 fields and one emoji.",
+      "You use 9 tools for email and forgot to actually send any.",
+      "You're AB testing before A is even working.",
+      "You spent 3 weeks naming the company. No one remembers it.",
+      "You have no churn because you have no users.",
+      "Your brand voice is literally GPT-4.",
+      "You thought 'launch on X' was a GTM motion.",
+      "Your website is a vibe but your signup is broken.",
+      "Your GTM advisor is just your cousin with Canva.",
+      "You ran a Product Hunt launch before finishing your Stripe integration."
     ],
     threat: [
-      "A stealth mode team in Estonia is already doing this… better.",
-      "Open source is eating your market. Again.",
-      "A startup that raised $5M yesterday just pivoted into your space."
+      "Your biggest competitor just got acquired by Adobe, somehow.",
+      "A meme page is copying your features—better.",
+      "Someone in Estonia shipped your product yesterday.",
+      "An indie hacker built your MVP in public and got paying users.",
+      "Your competitor raised $10M and still has worse UX than you.",
+      "Someone on Hacker News just flamed your landing page.",
+      "A ghost fork of your repo has more stars.",
+      "That startup you laughed at in 2023 just IPO'd.",
+      "An AI wrapper with your idea just went viral.",
+      "Google launched it. Accidentally. In a blog post.",
+      "Your old CTO cloned the repo and launched on IndieHackers.",
+      "A no-code founder built your v2 already.",
+      "Someone made your product into a Chrome extension.",
+      "VCs are backing the cheaper version of you.",
+      "The community edition of your tool has more users than your SaaS.",
+      "You got featured on Product Hunt. They got acquired.",
+      "A YouTuber roasted your UX and went viral.",
+      "Your competitor has worse branding, better revenue.",
+      "Someone launched your idea as an AI bot on Discord.",
+      "The intern you fired now runs your competitor."
     ],
     conclusion: [
-      "**Just kidding. I'm not real. But our team is.** [Book your real GTM session with Varnan →]",
-      "**AI can hallucinate a GTM. But you still need humans to sell.** [Book your real GTM plan →]",
-      "**That was fun. Now let's get serious.** [Work with Varnan Labs]"
+      "**You've been roasted. Now let's get serious.** [Book Varnan Labs →]",
+      "**Enough hallucinations. Get a real GTM plan with Varnan.**",
+      "**Your startup deserves better than jokes. Let's fix it.** [Varnan Labs →]",
+      "**We don't just roast. We build.** [Varnan GTM strategy. Let's go →]",
+      "**Seen enough fake insights? Let's get to work.** [Varnan Labs →]",
+      "**Your CAC is crying. Let's help.** [Book Varnan Labs →]",
+      "**Memes end here. Growth begins at Varnan.**",
+      "**This parody brought to you by people who actually know GTM.** [Varnan Labs →]",
+      "**Tired of vibes-based marketing? Same. Let's fix your GTM with Varnan.**",
+      "**This is your sign. Stop hallucinating, start scaling.** [Varnan →]"
     ]
   };
 
